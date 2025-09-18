@@ -1,0 +1,47 @@
+/* Arquivo: src/css/main.css (Intensidade e Ritmo Ajustados) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Define a animação do gradiente */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 2. Estiliza a nossa tela de fundo com o efeito final */
+#animated-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  
+  /* --- INTENSIDADE E COR AJUSTADAS --- */
+  /*
+    Como funciona:
+    - A "onda" de cor agora é mais larga (vai de 35% a 65%).
+    - O vermelho principal da DIINC (#CE2829) está no centro.
+    - Mantemos o vermelho claro (#FFEBEB) nas bordas para uma transição suave.
+  */
+  background: linear-gradient(-45deg, 
+    #FFFFFF 35%, 
+    #FFEBEB 45%, 
+    #CE2829 50%, 
+    #FFEBEB 55%, 
+    #FFFFFF 65%
+  );
+  
+  background-size: 400% 400%;
+  
+  /* --- VELOCIDADE AJUSTADA --- */
+  animation: gradient-animation 8s ease infinite;
+}

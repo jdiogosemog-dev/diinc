@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbano Videira | DIINC Incorporadora</title>
+    <meta name="description" content="O Urbano Videira foi projetado para conter a sua vida inteira. Studios e apartamentos de 22 a 80m² na Zona Leste de São Paulo.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/src/css/main.css">
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXX');</script>
+</head>
+<body class="text-diinc-dark antialiased font-sans">
+
+    <div id="animated-background"></div>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <header class="bg-white/80 shadow-md sticky top-0 z-50 backdrop-blur-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-heading font-bold text-diinc-red">DIINC</a>
+            <div class="hidden md:flex space-x-8 items-center font-sans font-medium text-diinc-gray">
+                <a href="#empreendimento" class="hover:text-diinc-red transition-colors">O Empreendimento</a>
+                <a href="#plantas" class="hover:text-diinc-red transition-colors">Plantas</a>
+                <a href="#lazer" class="hover:text-diinc-red transition-colors">Lazer</a>
+                <a href="#lancamentos" class="hover:text-diinc-red transition-colors">Lançamentos</a>
+                <a href="#localizacao" class="hover:text-diinc-red transition-colors">Localização</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-diinc-dark">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-6 pt-2 pb-4 space-y-2 bg-white border-t border-gray-200">
+                <a href="#empreendimento" class="mobile-menu-link block text-diinc-gray hover:text-diinc-red transition-colors py-2">O Empreendimento</a>
+                <a href="#plantas" class="mobile-menu-link block text-diinc-gray hover:text-diinc-red transition-colors py-2">Plantas</a>
+                <a href="#lazer" class="mobile-menu-link block text-diinc-gray hover:text-diinc-red transition-colors py-2">Lazer</a>
+                <a href="#lancamentos" class="mobile-menu-link block text-diinc-gray hover:text-diinc-red transition-colors py-2">Lançamentos</a>
+                <a href="#localizacao" class="mobile-menu-link block text-diinc-gray hover:text-diinc-red transition-colors py-2">Localização</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative h-screen min-h-[700px] bg-diinc-dark text-white flex items-center overflow-hidden">
+            <div class="absolute inset-0 bg-cover bg-center opacity-40 hero-bg" style="background-image: url(/src/assets/images/empreendimento-vista.jpeg)"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="max-w-3xl text-left">
+                    <h1 class="font-heading text-5xl md:text-7xl font-extrabold uppercase tracking-tight text-white hero-title">Urbano Videira</h1>
+                    <p class="font-sans text-xl md:text-2xl mt-6 text-gray-200 max-w-2xl leading-relaxed hero-subtitle">Seu mundo completo em um só lugar.</p>
+                    <button data-product-interest="Urbano Videira - Interesse Geral (Hero)" class="cta-button mt-10 bg-diinc-red text-white px-8 py-4 rounded-lg text-lg font-sans font-semibold hover:bg-red-800 transition-all transform hover:scale-105 shadow-lg shadow-black/30 hero-button">
+                        Quero mais informações
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="empreendimento" class="py-20 lg:py-28 overflow-x-hidden">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div data-anim="fade-in-left">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Um ecossistema completo no <span class="text-tech-cyan">coração da Zona Leste.</span></h2>
+                        <p class="text-lg text-black mb-6 leading-relaxed">O Urbano Videira foi projetado para conter a sua vida inteira. Do térreo, com lojas e coworking, aos andares residenciais com plantas inteligentes, até o rooftop, um oásis urbano com piscinas e sky lounge.</p>
+                        <div class="grid grid-cols-2 gap-6 mt-8">
+                            <div data-anim="stagger-item" class="flex items-center space-x-3"><i data-lucide="building-2" class="w-8 h-8 text-tech-cyan"></i><div><h3 class="font-bold">Studios e Apts.</h3><p class="text-sm text-black">22 a 80m²</p></div></div>
+                            <div data-anim="stagger-item" class="flex items-center space-x-3"><i data-lucide="shopping-cart" class="w-8 h-8 text-tech-cyan"></i><div><h3 class="font-bold">Lojas no Térreo</h3><p class="text-sm text-black">Conveniência</p></div></div>
+                            <div data-anim="stagger-item" class="flex items-center space-x-3"><i data-lucide="briefcase" class="w-8 h-8 text-tech-cyan"></i><div><h3 class="font-bold">Coworking</h3><p class="text-sm text-black">Trabalhe perto de casa</p></div></div>
+                            <div data-anim="stagger-item" class="flex items-center space-x-3"><i data-lucide="sun" class="w-8 h-8 text-tech-cyan"></i><div><h3 class="font-bold">Rooftop Premium</h3><p class="text-sm text-black">Lazer nas alturas</p></div></div>
+                        </div>
+                    </div>
+                    <div data-anim="fade-in-right" class="rounded-lg overflow-hidden shadow-2xl">
+                        <img src="/src/assets/images/empreendimento-vista.jpeg" alt="Vista do Empreendimento Urbano Videira" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plantas" class="py-24 lg:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="font-heading text-4xl md:text-5xl font-bold mb-4 tracking-tight text-urban-charcoal">Plantas Inteligentes</h2>
+                <p class="text-lg text-urban-charcoal mb-16 max-w-2xl mx-auto leading-relaxed">Opções que se moldam ao seu momento de vida.</p>
+                
+                <div id="plantas-tabs" class="relative max-w-2xl mx-auto mb-10 border-b border-gray-200 flex justify-center">
+                    <button data-target-tab="planta-22" data-plan-size="22m²" class="tab-button flex-1 py-4 px-2 font-heading font-semibold text-lg text-diinc-red transition-colors duration-300">22 m²</button>
+                    <button data-target-tab="planta-48" data-plan-size="48m²" class="tab-button flex-1 py-4 px-2 font-heading font-semibold text-lg text-urban-charcoal hover:text-diinc-red transition-colors duration-300">48 m²</button>
+                    <button data-target-tab="planta-58" data-plan-size="58m²" class="tab-button flex-1 py-4 px-2 font-heading font-semibold text-lg text-urban-charcoal hover:text-diinc-red transition-colors duration-300">58 m²</button>
+                    <button data-target-tab="planta-80" data-plan-size="80m²" class="tab-button flex-1 py-4 px-2 font-heading font-semibold text-lg text-urban-charcoal hover:text-diinc-red transition-colors duration-300">80 m²</button>
+                    <div class="absolute bottom-[-2px] left-0 h-1 bg-diinc-red" id="tab-indicator"></div>
+                </div>
+
+                <div id="plantas-content" class="mt-12 relative">
+                    <div id="planta-22" class="tab-content">
+                        <div class="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto text-left">
+                            <div>
+                                <img src="/src/assets/images/planta-22-planta.png" alt="Planta de 22m²" class="rounded-lg shadow-lg w-full mb-4">
+                                <button class="gallery-button w-full bg-diinc-dark text-white py-2 rounded-md font-semibold hover:bg-diinc-gray transition-colors" data-gallery-id="galeria-22">Ver galeria de imagens</button>
+                                <div id="galeria-22" class="hidden">
+                                    <a href="/src/assets/images/planta-22-planta.png" data-pswp-width="2656" data-pswp-height="1178">Planta</a>
+                                    <a href="/src/assets/images/planta-22-cozinha.png" data-pswp-width="3008" data-pswp-height="1040">Visão ampliada cozinha</a>
+                                    <a href="/src/assets/images/planta-22-quarto.png" data-pswp-width="2512" data-pswp-height="1248">Visão ampliada quarto</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-heading text-3xl font-bold mb-6 text-urban-charcoal">Studio - 22 m²</h3>
+                                <ul class="space-y-4 text-urban-charcoal mb-6">
+                                    <li class="flex items-center"><i data-lucide="bed-single" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Dormitório</li>
+                                    <li class="flex items-center"><i data-lucide="bath" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Banheiro</li>
+                                    <li class="flex items-center"><i data-lucide="chef-hat" class="w-5 h-5 mr-3 text-diinc-red"></i> Cozinha Integrada</li>
+                                    <li class="flex items-center"><i data-lucide="sofa" class="w-5 h-5 mr-3 text-diinc-red"></i> Varanda</li>
+                                </ul>
+                                <p class="text-urban-charcoal/70 italic mb-8">Ideal para quem busca praticidade e um investimento estratégico.</p>
+                                <button data-product-interest="Urbano Videira - Planta 22m²" class="cta-button bg-diinc-red text-white px-8 py-3 rounded-lg font-sans font-semibold hover:bg-red-800 transition-all">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="planta-48" class="tab-content hidden">
+                        <div class="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto text-left">
+                            <div>
+                                <img src="/src/assets/images/planta-48-planta.png" alt="Planta de 48m²" class="rounded-lg shadow-lg w-full mb-4">
+                                <button class="gallery-button w-full bg-diinc-dark text-white py-2 rounded-md font-semibold hover:bg-diinc-gray transition-colors" data-gallery-id="galeria-48">Ver galeria de imagens</button>
+                                <div id="galeria-48" class="hidden">
+                                    <a href="/src/assets/images/planta-48-planta.png" data-pswp-width="2008" data-pswp-height="1560">Planta</a>
+                                    <a href="/src/assets/images/planta-48-cozinha.png" data-pswp-width="2784" data-pswp-height="1128">Visão ampliada cozinha</a>
+                                    <a href="/src/assets/images/planta-48-varanda.png" data-pswp-width="2120" data-pswp-height="1024">Visão ampliada varanda</a>
+                                    <a href="/src/assets/images/planta-48-quarto.png" data-pswp-width="2864" data-pswp-height="1096">Visão ampliada quarto</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-heading text-3xl font-bold mb-6 text-urban-charcoal">Apartamento - 48 m²</h3>
+                                <ul class="space-y-4 text-urban-charcoal mb-6">
+                                    <li class="flex items-center"><i data-lucide="bed-single" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Dormitório</li>
+                                    <li class="flex items-center"><i data-lucide="bath" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Banheiro</li>
+                                    <li class="flex items-center"><i data-lucide="layout-grid" class="w-5 h-5 mr-3 text-diinc-red"></i> Sala e Cozinha</li>
+                                    <li class="flex items-center"><i data-lucide="sofa" class="w-5 h-5 mr-3 text-diinc-red"></i> Varanda Ampla</li>
+                                </ul>
+                                <p class="text-urban-charcoal/70 italic mb-8">Conforto e espaço na medida certa para o seu dia a dia.</p>
+                                <button data-product-interest="Urbano Videira - Planta 48m²" class="cta-button bg-diinc-red text-white px-8 py-3 rounded-lg font-sans font-semibold hover:bg-red-800 transition-all">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="planta-58" class="tab-content hidden">
+                        <div class="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto text-left">
+                            <div>
+                                <img src="/src/assets/images/planta-58-planta.png" alt="Planta de 58m²" class="rounded-lg shadow-lg w-full mb-4">
+                                <button class="gallery-button w-full bg-diinc-dark text-white py-2 rounded-md font-semibold hover:bg-diinc-gray transition-colors" data-gallery-id="galeria-58">Ver galeria de imagens</button>
+                                <div id="galeria-58" class="hidden">
+                                    <a href="/src/assets/images/planta-58-planta.png" data-pswp-width="2456" data-pswp-height="1272">Planta</a>
+                                    <a href="/src/assets/images/planta-58-cozinha.png" data-pswp-width="2712" data-pswp-height="1152">Visão ampliada cozinha</a>
+                                    <a href="/src/assets/images/planta-58-varanda.png" data-pswp-width="3000" data-pswp-height="1048">Visão ampliada varanda</a>
+                                    <a href="/src/assets/images/planta-58-quarto1.png" data-pswp-width="2720" data-pswp-height="1152">Visão ampliada quarto 1</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-heading text-3xl font-bold mb-6 text-urban-charcoal">Apartamento - 58 m²</h3>
+                                <ul class="space-y-4 text-urban-charcoal mb-6">
+                                    <li class="flex items-center"><i data-lucide="bed-double" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Dormitório espaçoso</li>
+                                    <li class="flex items-center"><i data-lucide="bath" class="w-5 h-5 mr-3 text-diinc-red"></i> 1 Banheiro</li>
+                                    <li class="flex items-center"><i data-lucide="layout-grid" class="w-5 h-5 mr-3 text-diinc-red"></i> Sala e Cozinha integradas</li>
+                                    <li class="flex items-center"><i data-lucide="sofa" class="w-5 h-5 mr-3 text-diinc-red"></i> Varanda Gourmet</li>
+                                </ul>
+                                <p class="text-urban-charcoal/70 italic mb-8">Mais espaço e versatilidade para você e sua família.</p>
+                                <button data-product-interest="Urbano Videira - Planta 58m²" class="cta-button bg-diinc-red text-white px-8 py-3 rounded-lg font-sans font-semibold hover:bg-red-800 transition-all">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="planta-80" class="tab-content hidden">
+                        <div class="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto text-left">
+                            <div>
+                                <img src="/src/assets/images/planta-80-planta.png" alt="Planta de 80m²" class="rounded-lg shadow-lg w-full mb-4">
+                                <button class="gallery-button w-full bg-diinc-dark text-white py-2 rounded-md font-semibold hover:bg-diinc-gray transition-colors" data-gallery-id="galeria-80">Ver galeria de imagens</button>
+                                <div id="galeria-80" class="hidden">
+                                    <a href="/src/assets/images/planta-80-planta.png" data-pswp-width="884" data-pswp-height="732">Planta</a>
+                                    <a href="/src/assets/images/planta-80-cozinha.png" data-pswp-width="2976" data-pswp-height="1048">Visão ampliada cozinha</a>
+                                    <a href="/src/assets/images/planta-80-varanda.jpeg" data-pswp-width="1600" data-pswp-height="550">Visão ampliada varanda</a>
+                                    <a href="/src/assets/images/planta-80-suite.png" data-pswp-width="2616" data-pswp-height="1200">Visão ampliada suíte</a>
+                                    <a href="/src/assets/images/planta-80-quarto2.png" data-pswp-width="2688" data-pswp-height="1160">Visão ampliada quarto 2</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-heading text-3xl font-bold mb-6 text-urban-charcoal">Apartamento - 80 m²</h3>
+                                <ul class="space-y-4 text-urban-charcoal mb-6">
+                                    <li class="flex items-center"><i data-lucide="bed-double" class="w-5 h-5 mr-3 text-diinc-red"></i> 2 Dormitórios (1 suíte)</li>
+                                    <li class="flex items-center"><i data-lucide="bath" class="w-5 h-5 mr-3 text-diinc-red"></i> 2 Banheiros</li>
+                                    <li class="flex items-center"><i data-lucide="layout-grid" class="w-5 h-5 mr-3 text-diinc-red"></i> Sala de Estar e Jantar</li>
+                                    <li class="flex items-center"><i data-lucide="sofa" class="w-5 h-5 mr-3 text-diinc-red"></i> Varanda espaçosa</li>
+                                </ul>
+                                <p class="text-urban-charcoal/70 italic mb-8">O máximo de conforto e sofisticação para sua família.</p>
+                                <button data-product-interest="Urbano Videira - Planta 80m²" class="cta-button bg-diinc-red text-white px-8 py-3 rounded-lg font-sans font-semibold hover:bg-red-800 transition-all">Tenho interesse</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lancamentos" class="py-24 lg:py-32 overflow-x-hidden">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-anim="fade-in-up">
+                    <h2 class="font-heading text-4xl md:text-5xl font-bold mb-4 tracking-tight text-black">Nossas Linhas de Lançamentos</h2>
+                    <p class="text-lg text-black max-w-2xl mx-auto leading-relaxed">Conheça os próximos sucessos da DIINC, projetados para cada momento de vida.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div data-anim="stagger-card" class="bg-ice/5 border border-graphite/20 rounded-lg shadow-lg overflow-hidden flex flex-col group transform hover:-translate-y-2 transition-transform duration-300 hover:shadow-tech-cyan/20 hover:border-graphite/50">
+                        <div data-gallery-item data-image-src="/src/assets/images/lancamento-arthur-alvim.jpeg" data-title="Urbano Arthur Alvim" class="relative overflow-hidden cursor-pointer">
+                            <img src="/src/assets/images/lancamento-arthur-alvim.jpeg" alt="Lançamento Urbano Arthur Alvim" class="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"><i data-lucide="zoom-in" class="text-white w-12 h-12"></i></div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="font-sans text-xs font-bold text-diinc-red uppercase tracking-wider mb-1">Série Smart</p>
+                            <h3 class="font-heading text-xl font-bold mb-2 text-black">Urbano Arthur Alvim</h3>
+                            <p class="text-sm text-black mb-4 flex-grow">Apartamentos com terraço e vista panorâmica, ao lado do metrô.</p>
+                            <p class="text-xs text-black font-medium mb-4">LOCAL: Artur Alvim</p>
+                            <button data-product-interest="Lançamento - Urbano Arthur Alvim (Smart)" class="cta-button w-full mt-auto bg-diinc-red text-white text-sm font-semibold px-4 py-2 rounded-md hover:bg-red-800 transition duration-300">Quero saber mais</button>
+                        </div>
+                    </div>
+
+                    <div data-anim="stagger-card" class="bg-ice/5 border border-graphite/20 rounded-lg shadow-lg overflow-hidden flex flex-col group transform hover:-translate-y-2 transition-transform duration-300 hover:shadow-tech-cyan/20 hover:border-graphite/50">
+                       <div data-gallery-item data-image-src="/src/assets/images/lancamento-itaquera.jpeg" data-title="Urbano Itaquera" class="relative overflow-hidden cursor-pointer">
+                            <img src="/src/assets/images/lancamento-itaquera.jpeg" alt="Lançamento Urbano Itaquera" class="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"><i data-lucide="zoom-in" class="text-white w-12 h-12"></i></div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="font-sans text-xs font-bold text-diinc-red uppercase tracking-wider mb-1">Série Smart</p>
+                            <h3 class="font-heading text-xl font-bold mb-2 text-black">Urbano Itaquera</h3>
+                            <p class="text-sm text-black mb-4 flex-grow">Studios e apartamentos conectados à mobilidade do Shopping e Metrô.</p>
+                            <p class="text-xs text-black font-medium mb-4">LOCAL: Itaquera</p>
+                            <button data-product-interest="Lançamento - Urbano Itaquera (Smart)" class="cta-button w-full mt-auto bg-diinc-red text-white text-sm font-semibold px-4 py-2 rounded-md hover:bg-red-800 transition duration-300">Quero saber mais</button>
+                        </div>
+                    </div>
+
+                    <div data-anim="stagger-card" class="bg-ice/5 border border-graphite/20 rounded-lg shadow-lg overflow-hidden flex flex-col group transform hover:-translate-y-2 transition-transform duration-300 hover:shadow-tech-cyan/20 hover:border-graphite/50">
+                       <div data-gallery-item data-image-src="/src/assets/images/lancamento-vila-matilde.jpeg" data-title="Urbano Vila Matilde Prime" class="relative overflow-hidden cursor-pointer">
+                            <img src="/src/assets/images/lancamento-vila-matilde.jpeg" alt="Lançamento Urbano Vila Matilde Prime" class="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"><i data-lucide="zoom-in" class="text-white w-12 h-12"></i></div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="font-sans text-xs font-bold text-diinc-red uppercase tracking-wider mb-1">Série Prime</p>
+                            <h3 class="font-heading text-xl font-bold mb-2 text-black">Urbano Vila Matilde Prime</h3>
+                            <p class="text-sm text-black mb-4 flex-grow">More em uma rua tranquila e arborizada com o máximo de conforto.</p>
+                            <p class="text-xs text-black font-medium mb-4">LOCAL: Vila Matilde</p>
+                            <button data-product-interest="Lançamento - Urbano Vila Matilde (Prime)" class="cta-button w-full mt-auto bg-diinc-red text-white text-sm font-semibold px-4 py-2 rounded-md hover:bg-red-800 transition duration-300">Quero saber mais</button>
+                        </div>
+                    </div>
+
+                    <div data-anim="stagger-card" class="bg-ice/5 border border-graphite/20 rounded-lg shadow-lg overflow-hidden flex flex-col group transform hover:-translate-y-2 transition-transform duration-300 hover:shadow-tech-cyan/20 hover:border-graphite/50">
+                       <div data-gallery-item data-image-src="/src/assets/images/lancamento-penha.jpeg" data-title="Urbano Penha" class="relative overflow-hidden cursor-pointer">
+                            <img src="/src/assets/images/lancamento-penha.jpeg" alt="Lançamento Urbano Penha" class="w-full h-48 object-cover transition-transform duration-500 ease-in-out group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"><i data-lucide="zoom-in" class="text-white w-12 h-12"></i></div>
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <p class="font-sans text-xs font-bold text-diinc-red uppercase tracking-wider mb-1">Urbano</p>
+                            <h3 class="font-heading text-xl font-bold mb-2 text-black">Urbano Penha</h3>
+                            <p class="text-sm text-black mb-4 flex-grow">O design e a qualidade da DIINC em um dos bairros mais tradicionais de SP.</p>
+                            <p class="text-xs text-black font-medium mb-4">LOCAL: Penha</p>
+                            <button data-product-interest="Lançamento - Urbano Penha" class="cta-button w-full mt-auto bg-diinc-red text-white text-sm font-semibold px-4 py-2 rounded-md hover:bg-red-800 transition duration-300">Quero saber mais</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="localizacao" class="py-24 lg:py-32 overflow-x-hidden">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-anim="fade-in-up">
+                    <h2 class="font-heading text-4xl md:text-5xl font-bold mb-4 tracking-tight text-urban-charcoal">Localização Estratégica</h2>
+                    <p class="text-lg text-graphite max-w-2xl mx-auto leading-relaxed">Perto de tudo que você precisa para viver bem.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    
+                    <div data-anim="map-reveal" class="w-full h-[500px] rounded-lg shadow-lg overflow-hidden border border-gray-200">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.873220027663!2d-46.50289818850617!3d-23.5369749787265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e0a394a5e9d%3A0x6d2da267a5a3a2d4!2sR.%20Videira%2C%20180%20-%20Vila%20Re%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003666-030!5e0!3m2!1spt-BR!2sbr!4v1726607065604!5m2!1spt-BR!2sbr"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <div class="text-left">
+                        <div data-anim="details-reveal">
+                            <h3 class="font-heading text-3xl font-bold text-urban-charcoal mb-4">Urbano Videira</h3>
+                            <p class="text-graphite mb-8 leading-relaxed">
+                                Em uma das regiões mais conectadas da Zona Leste, você tem acesso rápido a metrô, serviços, lazer e vias importantes.
+                            </p>
+                        </div>
+                        <div class="space-y-4">
+                            <div data-anim="stagger-point" class="flex items-start">
+                                <i data-lucide="map-pin" class="w-6 h-6 mr-4 text-diinc-red flex-shrink-0 mt-1"></i>
+                                <div><span class="font-heading font-bold text-urban-charcoal">Endereço:</span><br>Rua Videira, 180 - Patriarca, São Paulo</div>
+                            </div>
+                            <div data-anim="stagger-point" class="flex items-start">
+                                <i data-lucide="train" class="w-6 h-6 mr-4 text-diinc-red flex-shrink-0 mt-1"></i>
+                                <div><span class="font-heading font-bold text-urban-charcoal">300m</span> do Metrô Patriarca-Vila Ré</div>
+                            </div>
+                            <div data-anim="stagger-point" class="flex items-start">
+                                <i data-lucide="car" class="w-6 h-6 mr-4 text-diinc-red flex-shrink-0 mt-1"></i>
+                                <div><span class="font-heading font-bold text-urban-charcoal">100m</span> da Radial Leste</div>
+                            </div>
+                            <div data-anim="stagger-point" class="flex items-start">
+                                <i data-lucide="shopping-bag" class="w-6 h-6 mr-4 text-diinc-red flex-shrink-0 mt-1"></i>
+                                <div><span class="font-heading font-bold text-urban-charcoal">4km</span> do Shopping Metrô Itaquera</div>
+                            </div>
+                            <div data-anim="stagger-point" class="flex items-start">
+                                <i data-lucide="swords" class="w-6 h-6 mr-4 text-diinc-red flex-shrink-0 mt-1"></i>
+                                <div><span class="font-heading font-bold text-urban-charcoal">3.7km</span> da Neo Química Arena</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-20 lg:py-28 bg-pattern text-white overflow-hidden">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black" data-anim="final-cta-title">Gostou de algum projeto?</h2>
+                <p class="text-lg text-black max-w-3xl mx-auto" data-anim="final-cta-text">
+                    Entre em contato com nossa equipe de especialistas e saiba mais sobre nossos empreendimentos.
+                </p>
+                <button data-product-interest="Contato Geral - Fim da Página" class="cta-button mt-10 bg-diinc-red text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-800 transition-all transform hover:scale-105" data-anim="final-cta-button">
+                    Enviar Mensagem
+                </button>
+            </div>
+        </section>
+
+        <footer class="bg-black text-gray-400 font-sans">
+            <div class="container mx-auto px-6 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                    <div>
+                        <a href="#" class="text-3xl font-heading font-bold text-white">DIINC</a>
+                        <p class="text-sm text-gray-400 mt-2">Desenvolvimento Imobiliário</p>
+                        <p class="text-sm text-gray-400 mt-1">São Paulo - SP</p>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-lg text-white mb-4">Contato</h3>
+                        <div class="space-y-2">
+                           <a href="https://wa.me/5511940324785" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center md:justify-start text-gray-300 hover:text-white transition-colors">
+                                <i data-lucide="phone" class="w-4 h-4 mr-2"></i>
+                                <span>(11) 94032-4785</span>
+                            </a>
+                            <a href="mailto:contato@diinc.com.br" class="flex items-center justify-center md:justify-start text-gray-300 hover:text-white transition-colors">
+                                <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
+                                <span>contato@diinc.com.br</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-lg text-white mb-4">Siga-nos</h3>
+                        <a href="https://www.instagram.com/diinc_sp" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center md:justify-start text-gray-300 hover:text-white transition-colors">
+                            <i data-lucide="instagram" class="w-4 h-4 mr-2"></i>
+                            <span>@diinc_sp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="border-t border-graphite/30 mt-12 pt-8 text-center text-sm">
+                    <p class="text-gray-200">© 2025 DIINC DESENVOLVIMENTO IMOBILIÁRIO LTDA. Todos os direitos reservados.</p>
+                    <p class="text-xs mt-4 max-w-4xl mx-auto text-gray-500">
+                        Incorporadora responsável: DIINC DESENVOLVIMENTO IMOBILIÁRIO LTDA., inscrita no CNPJ/MF sob nº 42.009.719/0001-33. Arquiteta responsável: Uyara Francez (Registro CAU nº A239189-9). A comercialização será realizada somente após a obtenção do registro do memorial de incorporação no respectivo Oficial de Registro de Imóveis. As informações constantes no Memorial de Incorporação e nos futuros instrumentos de compra e venda prevalecerão sobre as divulgadas neste material. Todas as imagens, fotografias e elementos gráficos contidos neste site possuem caráter meramente ilustrativo. As tonalidades das cores, formas, texturas, acabamentos, equipamentos e utensílios podem sofrer alterações e serão entregues conforme o memorial descritivo do empreendimento. Os móveis e utensílios são sugestões de decoração com dimensões comerciais e não fazem parte do contrato de aquisição da unidade. A vegetação exposta é ilustrativa, apresenta porte adulto de referência e será entregue de acordo com o projeto paisagístico, podendo apresentar diferenças.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script type="module" src="/src/js/main.js"></script>
+
+        <a href="https://wa.me/5511940324785?text=Ol%C3%A1!%20Tenho%20interesse%20nos%20empreendimentos%20da%20DIINC." target="_blank" rel="noopener noreferrer" aria-label="Fale Conosco pelo WhatsApp" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform duration-300 z-50">
+            <i data-lucide="phone" class="w-8 h-8"></i>
+        </a>
+    </body>
+</html>
