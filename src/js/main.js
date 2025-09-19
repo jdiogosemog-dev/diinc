@@ -1,6 +1,7 @@
 // Arquivo: /src/js/main.js (Versão Final para Fundo CSS)
 
 // ---- IMPORTAÇÕES E PLUGINS ----
+import '../css/main.css';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import 'photoswipe/style.css';
